@@ -1,0 +1,23 @@
+{
+  "name": "ceramic-soul2",
+  "version": "1.0.0",
+  "description": "I don't know what to say, I just train hard to become a webdeveloper",
+  "homepage": "https://github.com/Chudesax/ceramic-soul__new#readme",
+  "bugs": {
+    "url": "https://github.com/Chudesax/ceramic-soul__new/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chudesax/ceramic-soul__new.git"
+  },
+  "license": "ISC",
+  "author": "Ivan Ilyin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.7"
+  }
+}
