@@ -1,3 +1,5 @@
+@use "/src/sass/base/variables.scss" as *;
+
 html {
   font-family: "Barlow", sans-serif;
   scroll-behavior: smooth;
@@ -20,6 +22,7 @@ ol {
 
 body {
   min-height: 100vh;
+  background-color: $light;
 }
 
 img {
