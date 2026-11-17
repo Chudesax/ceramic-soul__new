@@ -1,8 +1,14 @@
 @use "/src/sass/base/variables.scss" as *;
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    display: none;
+  }
 
   &__icons {
     display: flex;
@@ -13,6 +19,22 @@
       display: block;
       width: 20px;
       height: 20px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    &__nav {
+      display: flex;
+      justify-content: center;
+      column-gap: 30px;
+      padding-top: 20px;
+      flex-wrap: wrap;
+      a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: $dark;
+      }
     }
   }
 }
@@ -28,5 +50,8 @@
     width: 20px;
     height: 1px;
     background-color: $dark;
+  }
+  @media screen and (min-width: 768px) {
+    visibility: hidden;
   }
 }

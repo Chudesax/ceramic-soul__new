@@ -3,10 +3,9 @@
 @use "/src/sass/base/_variables.scss";
 @use "/src/sass/base/_mixins.scss";
 
-//blocks
-@use "/src/sass/blocks/_header.scss";
-@use "/src/sass/blocks/_promo.scss";
-
 //ui
 @use "/src/sass/ui/_titles.scss";
 @use "/src/sass/ui/_buttons.scss";
+//blocks
+@use "/src/sass/blocks/_header.scss";
+@use "/src/sass/blocks/_promo.scss";

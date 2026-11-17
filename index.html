@@ -12,38 +12,51 @@
     <section class="promo">
       <div class="container">
         <div class="header promo__header">
-          <div class="burger header__burger">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div class="header__top">
+            <div class="burger header__burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <a href="#" class="header__logo">
+              <img
+                src="/src/icons/cs-logo-mobile.svg"
+                alt="ceramic soul logo"
+              />
+            </a>
+
+            <div class="header__icons">
+              <a href="#"
+                ><img src="/src/icons/search-outline.svg" alt="Иконка поиска"
+              /></a>
+              <a href="#"
+                ><img src="/src/icons/shopping-bag.svg" alt="Иконка корзина"
+              /></a>
+            </div>
           </div>
 
-          <a href="" class="header__logo">
-            <img src="/src/icons/cs-logo-mobile.svg" alt="ceramic soul logo" />
-          </a>
+          <ul class="header__nav">
+            <li><a href="#" class="header__link">catalog</a></li>
+            <li><a href="#" class="header__link">blog</a></li>
+            <li><a href="#" class="header__link">about</a></li>
+          </ul>
+        </div>
+        <div class="promo__wrapper">
+          <h1 class="title-h1-italic promo__title">
+            Make your dream come true or decorate your home
+          </h1>
 
-          <div class="header__icons">
-            <a href="#"
-              ><img src="/src/icons/search-outline.svg" alt="Иконка поиска"
-            /></a>
-            <a href="#"
-              ><img src="/src/icons/shopping-bag.svg" alt="Иконка корзина"
-            /></a>
+          <div class="promo__ctr">
+            <img
+              src="/src/img/homepage/ceramic-vase.jpg"
+              alt="Керамическая ваза"
+              class="promo__img"
+            />
+            <button class="btn-default promo__btn">shop now</button>
           </div>
         </div>
-
-        <h1 class="title-h1-italic promo__title">
-          Make your dream come true or decorate your home
-        </h1>
-
-        <img
-          src="/src/img/homepage/ceramic-vase.jpg"
-          alt="Керамическая ваза"
-          class="promo__img"
-        />
       </div>
-
-      <button class="btn-default promo__btn">shop now</button>
     </section>
 
     <script type="module" src="/src/js/main.js"></script>

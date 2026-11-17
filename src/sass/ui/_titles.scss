@@ -6,3 +6,8 @@
   font-style: italic;
   font-size: 23px;
 }
+
+.title-h1 {
+  @include title;
+  font-size: 23px;
+}
