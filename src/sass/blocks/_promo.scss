@@ -21,6 +21,7 @@
   @media screen and (min-width: 768px) {
     &__wrapper {
       display: flex;
+      justify-content: space-between;
       align-items: end;
       padding: 0 45px;
       column-gap: 50px;
