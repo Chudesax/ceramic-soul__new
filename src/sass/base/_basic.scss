@@ -43,4 +43,14 @@ a {
     padding: 0;
     margin: 0 auto;
   }
+  @media screen and (min-width: 1200px) {
+    max-width: 1140px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+  }
 }

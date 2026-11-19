@@ -55,3 +55,20 @@
     visibility: hidden;
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .header {
+    &__logo {
+      img {
+        width: 150px;
+        height: 151px;
+      }
+    }
+    &__nav {
+      margin-top: 36px;
+      ul {
+        column-gap: 60px;
+      }
+    }
+  }
+}
