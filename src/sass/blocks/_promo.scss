@@ -47,11 +47,11 @@
     &__potter {
       display: block;
       position: absolute;
-      width: clamp(450px, 31vw, 640px);
-      max-height: 900px;
-      object-fit: cover;
       left: 0;
       top: 0;
+      width: clamp(450px, 37.5vw, 640px);
+      height: 633px;
+      object-fit: cover;
     }
     &__img {
       margin-top: 50px;
