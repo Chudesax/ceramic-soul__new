@@ -10,7 +10,7 @@
     flex-direction: column;
     padding-top: 20px;
     img {
-      padding-top: 40px;
+      margin-top: 40px;
       object-fit: cover;
       width: 100%;
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
@@ -19,7 +19,7 @@
       padding-top: 20px;
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 16px;
       line-height: 24px;
       color: $dark;
       span {
@@ -36,9 +36,16 @@
   @media screen and (min-width: 768px) {
     &__card {
       padding: 0 10px;
+      p {
+        font-size: 20px;
+      }
     }
   }
   @media screen and (min-width: 1200px) {
+    &__wrapper {
+      padding-top: 80px;
+    }
+
     &__card:nth-child(2) {
       p {
         width: 80%;
