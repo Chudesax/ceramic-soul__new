@@ -109,38 +109,58 @@
     <section class="touch">
       <div class="container">
         <h2 class="touch__title title-h2">get in touch</h2>
-        <form action="#" class="touch__form form">
-          <fieldset class="form__fieldset">
-            <div class="form__input-block">
-              <label for="name" class="form__label">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Ivan..."
-                class="form__input"
-              />
-            </div>
+        <div class="touch__wrapper pure-g">
+          <div class="touch__img pure-u-xl-1-2 pure-u-xxl-2-5">
+            <img src="/src/img/homepage/tea.jpg" alt="" class="touch__tea" />
+          </div>
 
-            <div class="form__input-block">
-              <label for="email" class="form__label">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="pornstart@cubic.xxx"
-                class="form__input"
-              />
-            </div>
-          </fieldset>
-          <label for="question" class="form__label">Your question</label>
-          <textarea
-            id="question"
-            name="question"
-            class="form__textarea"
-            placeholder="Question"
-          ></textarea>
-        </form>
+          <form
+            action="#"
+            class="touch__form form pure-u-xl-1-2 pure-u-xxl-3-5"
+          >
+            <fieldset class="form__fieldset">
+              <div class="form__input-block">
+                <label for="name" class="form__label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Aleg"
+                  class="form__input"
+                />
+              </div>
+
+              <div class="form__input-block">
+                <label for="email" class="form__label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="pornstart@cubic.xxx"
+                  class="form__input"
+                />
+              </div>
+            </fieldset>
+            <label for="question" class="form__label">Your question</label>
+            <textarea
+              id="question"
+              name="question"
+              class="form__textarea"
+              placeholder="Question"
+            ></textarea>
+            <label for="checkbox" class="form__label form__checkblock">
+              <input type="checkbox" id="checkbox" class="checkbox" />
+              I agree with the <a href="#">terms</a></label
+            >
+
+            <button class="form__btn btn-send">send request</button>
+            <img
+              src="/src/icons/vase.svg"
+              alt="Ебучая ваза в углу"
+              class="form__fucking-vase-in-the-corner"
+            />
+          </form>
+        </div>
       </div>
     </section>
 
