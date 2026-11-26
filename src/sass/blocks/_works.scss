@@ -1,0 +1,24 @@
+@use "/src/sass/base/variables" as *;
+
+.works {
+  padding-bottom: 80px;
+  &__swiper {
+    padding-top: 80px;
+  }
+  &__wrapper {
+    padding-bottom: 50px;
+  }
+}
+
+.swiper {
+  &-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: $dark;
+    border-radius: 0;
+    opacity: none;
+    &-active {
+      background-color: $ceramic;
+    }
+  }
+}
